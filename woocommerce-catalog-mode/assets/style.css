@@ -1,0 +1,123 @@
+.single_variation_wrap .woocommerce-variation-add-to-cart {
+    display: none !important;
+}
+.wccm-enquiry-link {
+    display: inline-block;
+    color: #0073aa;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+}
+.inquiry-button-link {
+    color: #0073aa;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+}
+
+
+.wccm-enquiry-btn {
+    margin-top: 15px;
+}
+
+
+.wccm-enquiry-btn,.inquiry-modal-content .submit {
+    background-color: #0073aa;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.inquiry-modal-content .submit{
+    margin-top: 10px;
+}
+.inquiry-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.inquiry-modal-content {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #888;
+}
+
+#inquiry-form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+#inquiry-form label {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.send_copy_label{
+    display: block;
+}
+#inquiry-form input[type="text"],
+#inquiry-form input[type="email"],
+#inquiry-form input[type="tel"],
+#inquiry-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#inquiry-form textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+.checkbox-group {
+    flex-direction: row !important;
+    align-items: center;
+    gap: 8px;
+}
+
+.inquiry-submit {
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.inquiry-submit:hover {
+    background-color: #005f8d;
+}
